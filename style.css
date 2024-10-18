@@ -10,6 +10,37 @@
     color: #d3d3d3;
 }
 
+.navbar-brand img {
+    height: 40px;
+}
+
+.navbar-brand span {
+    font-size: 20px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+@media (min-width: 768px) {
+    .navbar-brand img {
+        height: 50px;
+    }
+
+    .navbar-brand span {
+        font-size: 24px;
+    }
+
+    .navbar {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .navbar-collapse {
+        justify-content: space-between;
+    }
+}
+
 .carousel-caption h1 {
     color: #966443;
 }
