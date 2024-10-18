@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>Homepage - Handcrafted Hues</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark custom-header px-5">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <img src="rose.png" alt="Handcrafted Hues Logo" style="height: 40px;">
+                <span class="h4 mb-0 ml-2 text-white">Handcrafted Hues</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a href="index.html" class="nav-link px-2">Home</a></li>
+                    <li class="nav-item"><a href="products.html" class="nav-link px-2">Products</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link px-2">About</a></li>
+
+                </ul>
+                <div class="d-flex">
+                    <a href="login.html" class="btn btn-outline-primary me-3">Login</a>
+                    <a href="signup.html" class="btn btn-primary me-3">Sign-up</a>
+                    <a href="cart.html" class="btn btn-outline-light"><img src="cart.png" alt="Cart"
+                            style="height: 24px;"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <main class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card p-4" style="border-radius: 15px;">
+                    <div class="row g-0">
+                        <div class="col-md-8" style="padding-right: 15px;">
+                            <h1>Welcome to Handcrafted Hues — From Hearts to Hands</h1>
+                            <p>We offer a world of handcrafted beauty with our meticulously crafted paper flower
+                                bouquets and DIY gifts. Each piece is made with love and creativity, perfect for adding
+                                a personal touch to your celebrations and gifts. Our products are designed to bring joy
+                                and beauty into your home, making every moment special.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="minimessage.jpeg" alt="Handcrafted Paper Flowers" class="img-fluid rounded-end"
+                                style="border-radius: 15px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Product Slideshow -->
+    <section class="container mt-5">
+        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-label="Slide 1" aria-current="true"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+                    class=""></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+                    class=""></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="product1.jpeg" class="d-block w-100" alt="Product 1">
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Handcrafted Paper Flower Bouquet</h1>
+                            <p class="opacity-75">A beautiful bouquet perfect for any occasion.</p>
+                            <p><a class="btn btn-lg btn-primary" href="signup.html">Sign up today</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="gift3.jpeg" class="d-block w-100" alt="Product 2">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>DIY Gift Kit</h1>
+                            <p>Some representative placeholder content for the second slide of the carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="gift2.jpeg" class="d-block w-100" alt="Product 3">
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1>One more for good measure.</h1>
+                            <p>Some representative placeholder content for the third slide of this carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="products.html">Browse gallery</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="custom-footer text-white p-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Quick Links</h4>
+                    <a href="#" class="text-white">Privacy Policy</a> |
+                    <a href="#" class="text-white">Terms of Service</a> |
+                    <a href="#" class="text-white">FAQs</a>
+                </div>
+                <div class="col-md-4">
+                    <h4>Contact Information</h4>
+                    <p>Email: <a href="mailto:support@handcraftedhues.com"
+                            class="text-white">support@handcraftedhues.com</a></p>
+                    <p>Phone: <a href="tel:+639292539806" class="text-white">+639292539806</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Follow Us</h4>
+                    <a href="https://www.facebook.com/shielamay.taccad07/"><img src="facebook.png" alt="Facebook"
+                            style="width:24px;height:24px;">Facebook</a>
+                    <a href="https://www.google.com/"><img src="googleicon.png" alt="Google"
+                            style="width:24px;height:24px;">Google</a>
+                    <a href="https://www.instagram.com/sh_allie_/"><img src="instagram.png" alt="Instagram"
+                            style="width:24px;height:24px;">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const isLoggedIn = false;
+
+        if (isLoggedIn) {
+            document.getElementById('auth-buttons').innerHTML = `
+                <a href="logout.html" class="btn btn-outline-primary me-2">Logout</a>
+                <a href="cart.html" class="btn btn-outline-light"><img src="cart_icon.png" alt="Cart" style="height: 24px;"></a>
+            `;
+        }
+    </script>
+</body>
+</html>
